@@ -13,7 +13,7 @@ path_to_dump = ''  # Path to data dump
 index_folder = ''  # Path to index folder
 query_file = ''  # Path to query file
 output_folder = ''  # Folder where search outputs are stored
-results_file = ''  # Path to results file (to store details like index size, run time etc.)
+results_file = '../results.jsonl'  # Path to results file (to store details like index size, run time etc.)
 timeout_index = 180  # Timeout indexing after 3 minutes
 timeout_search = 120  # Timeout search after 2 minutes
 
